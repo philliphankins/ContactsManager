@@ -26,11 +26,9 @@ public class Main {
             }
 // added method searchContact
 
-            Contact searchContact(String searchName) {
-                for (int =0;
-                i<friendsCount ;
-                i++){
-                    if (myFriends[i].name equals(searchName)){
+            Contact searchContact(String searchName){
+                for (int i=0; i<friendsCount ; i++){
+                    if (myFriends[i].name.equals(searchName)){
                         return myFriends[i];
                     }
                 }
@@ -45,12 +43,12 @@ public class Main {
     // added main class
 
     class Main {
-        public static void main(String[] args) {
+        public static void main(String  [] args) {
             ContactManager myContactManager = new ContactManager();
         }
 
-    }
-
 
     }
+
 }
+
